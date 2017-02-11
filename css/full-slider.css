@@ -1,0 +1,119 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+    height: 100%;
+    background: #909090
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.dropbtn {
+    background-color: #202020;
+    color: #909090;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: -1px;
+}
+.dropbtn:hover {
+    color: #FFFFFF
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #909090;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1; font-size: 110%;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.dropbtn{
+    color: FF0000;
+}
+div.img {
+    margin: 15px;
+    margin-top: 55px;
+    margin-left: 75px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 230px;
+    height: 290px;
+    
+}
+div.img:hover {
+    border: 1px solid #787878;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+form {
+      float: right;
+      padding-top: 11px;
+}
+.pic {
+    float: left;
+}
+section {
+    float: right;
+    margin-right: 20px;
+    width: 29%;
+    margin: 2% 2%;
+}
+h2 {
+    font-size: 23px;
+    text-align: center;
+    
+}
